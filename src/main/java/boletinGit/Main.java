@@ -17,7 +17,7 @@ public class Main {
             opcion = sc.nextInt();
             switch (opcion) {
                 case 1:
-// insertar codigo aqui
+// insertar codigo aqui 1
                     break;
                 case 2:
 // insertar codigo aqui
