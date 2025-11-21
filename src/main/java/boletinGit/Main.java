@@ -17,7 +17,8 @@ public class Main {
             opcion = sc.nextInt();
             switch (opcion) {
                 case 1:
-// insertar codigo aqui 1
+                    double resultado = Calculadora.calculadora(sc);
+                    System.out.println("El resultado es: "+resultado);
                     break;
                 case 2:
 // insertar codigo aqui
