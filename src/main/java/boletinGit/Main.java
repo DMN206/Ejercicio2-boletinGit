@@ -24,7 +24,8 @@ public class Main {
 // insertar codigo aqui
                     break;
                 case 3:
-// insertar codigo aqui
+                    double area = CalculadoraAreas.calcularArea(sc);
+                    System.out.println("El area es: " +area);
                     break;
                 case 4:
 // insertar codigo aqui
