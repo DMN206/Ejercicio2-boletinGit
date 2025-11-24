@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Pr ́actica de Git: ejercicio 2");
         int opcion = 0;
         Scanner sc = new Scanner(System.in);
+        NumeroPrimo numPrimo = new NumeroPrimo();
         do {
             System.out.println("\nInserte una opci ́on:");
             System.out.println("\t1 - CALCULADORA N ́UMEROS" +
@@ -21,8 +22,11 @@ public class Main {
                     System.out.println("El resultado es: "+resultado);
                     break;
                 case 2:
-// insertar codigo aqui
+                    System.out.print("Introduce un número para verificar si es primo: ");
+                    int numero = sc.nextInt();
+                    numPrimo.decirSioNoPrimo(numero);
                     break;
+
                 case 3:
                     double area = CalculadoraAreas.calcularArea(sc);
                     System.out.println("El area es: " +area);
