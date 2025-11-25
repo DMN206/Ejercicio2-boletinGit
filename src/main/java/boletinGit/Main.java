@@ -32,7 +32,7 @@ public class Main {
                     System.out.println("El area es: " +area);
                     break;
                 case 4:
-// insertar codigo aqui
+                    System.out.println(Notas.mediaClase(sc));
                     break;
                 case 0:
                     System.out.println("Saliendo del programa...");
